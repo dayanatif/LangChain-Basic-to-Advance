@@ -19,19 +19,6 @@ This repo demonstrates how to integrate, test, and run models like **OpenAI GPT*
 
 ---
 
-## 📂 Project Structure
-
-```plaintext
-LangChain-Models/
-│
-├── LLMs/                 # Code examples for language models
-├── ChatModels/           # Code examples for conversational models
-├── Embeddings/           # Code examples for embedding models
-├── requirements.txt      # Python dependencies
-├── .env.example          # Example environment variable file
-└── README.md             # This file
-
-
 ## ⚡ Installation
 
 1. **Clone the repository**
