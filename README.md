@@ -23,12 +23,12 @@ This repo demonstrates how to integrate, test, and run models like **OpenAI GPT*
 
 LangChain-Models/
 │
-├── LLMs/                 # Code examples for language models
-├── ChatModels/           # Code examples for conversational models
-├── Embeddings/           # Code examples for embedding models
-├── requirements.txt      # Python dependencies
-├── .env.example          # Example environment variable file
-└── README.md             # This file
+├── LLMs/ # Code examples for language models
+├── ChatModels/ # Code examples for conversational models
+├── Embeddings/ # Code examples for embedding models
+├── requirements.txt # Python dependencies
+├── .env.example # Example environment variable file
+└── README.md # This file
 
 
 ---
@@ -40,6 +40,13 @@ LangChain-Models/
    git clone https://github.com/yourusername/LangChain-Models.git
    cd LangChain-Models
 
-OPENAI_API_KEY=your_openai_api_key
-GOOGLE_API_KEY=your_google_api_key
-HUGGINGFACEHUB_API_TOKEN=your_hf_api_token
+2. **Create a virtual environment**
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # Linux/Mac
+   venv\Scripts\activate      # Windows
+
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+
