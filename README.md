@@ -1,21 +1,24 @@
-# LangChain-Models
+# LangChain-Basic-to-Advanced
 
-A collection of example code for working with **LLMs**, **Chat Models**, and **Embedding Models** from multiple providers — both **open-source** and **closed-source** — using [LangChain](https://www.langchain.com/) and the **Hugging Face API**.  
+A **comprehensive collection** of example code and workflows for working with **LangChain** — from **basic concepts** to **advanced use cases**.  
 
-This repo demonstrates how to integrate, test, and run models like **OpenAI GPT**, **Google Gemini**, and **various Hugging Face models** in a unified workflow.
+This repo covers **LLMs**, **Chat Models**, **Embedding Models**, **Output Parsers**, **Structured Output Parsers**, **Prompts**, and more — using both **open-source** and **closed-source** providers such as **OpenAI**, **Google Gemini**, and **Hugging Face**.
 
 ---
 
 ## ✨ Features
 
-- **LLMs**: Examples of text generation using multiple providers.
-- **Chat Models**: Conversational AI examples with context management.
-- **Embedding Models**: Create vector embeddings for search, similarity, and RAG.
-- **Multi-provider setup**:  
+- **LLMs**: Text generation with multiple providers.
+- **Chat Models**: Conversational AI with context memory.
+- **Embedding Models**: Vector embeddings for search, similarity, and RAG pipelines.
+- **Output Parsers**: Handle and structure raw model outputs.
+- **Structured Output Parsers**: Enforce JSON-schema or Pydantic-based responses.
+- **Prompts**: Templates and advanced prompting techniques.
+- **Multi-provider support**:  
   - **Closed-source**: OpenAI, Gemini  
   - **Open-source**: Hugging Face Hub models
-- **Environment variable management** with `.env`  
-- **Practical LangChain usage** for different model types.
+- **Environment management** with `.env`
+- **Step-by-step progression**: Learn LangChain **from basics to advanced.**
 
 ---
 
@@ -23,9 +26,11 @@ This repo demonstrates how to integrate, test, and run models like **OpenAI GPT*
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/dayanatif/LangChain-Models.git
-   cd LangChain-Models
+   git clone https://github.com/dayanatif/LangChain-Basic-to-Advanced.git
+   cd LangChain-Basic-to-Advanced
 
+
+---
 2. **Create a virtual environment**
    ```bash
    python -m venv venv
